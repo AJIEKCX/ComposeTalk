@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/compose-model-1631604794145.xml" value="0.75" />
+        <entry key="../../../../layout/compose-model-1631605120152.xml" value="0.25" />
+        <entry key="../../../../layout/compose-model-1631685216182.xml" value="0.26309121621621623" />
+        <entry key="../../../../layout/compose-model-1631686538119.xml" value="0.335" />
+        <entry key="../../../../layout/compose-model-1631717736649.xml" value="0.29907407407407405" />
+        <entry key="../../../../layout/compose-model-1631719451334.xml" value="0.26309121621621623" />
+        <entry key="../../../../layout/compose-model-1631722464892.xml" value="0.335" />
+        <entry key="../../../../layout/compose-model-1631773827347.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1632072428836.xml" value="0.1" />
+        <entry key="../../../../layout/custom_preview.xml" value="0.2564814814814815" />
+        <entry key="app/src/main/res/layout/activity_binding_login.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_mvp_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_sample.xml" value="0.296875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

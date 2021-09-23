@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.alexpanov.composetalk">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComposeTalk">
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeTalk.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.login.compose.LoginComposeActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ComposeTalk.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.login.mvp.LoginMvpActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ComposeTalk.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.login.mvp.LoginMvpComposeActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ComposeTalk.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.login.mvvm.LoginMvvmActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ComposeTalk.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.login.mvvm.LoginMvvmComposeActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ComposeTalk.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.login.mvvm.binding.LoginDataBindingActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ComposeTalk.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.login.mvvm.binding.LoginDataBindingComposeActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ComposeTalk.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.login.mvi.LoginMviActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ComposeTalk.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.login.mvi.LoginMviComposeActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/Theme.ComposeTalk.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.counter.CounterActivity"
+            android:theme="@style/Theme.ComposeTalk.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".ui.bottomsheet.BottomSheetActivity"
+            android:theme="@style/Theme.ComposeTalk.NoActionBar">
+        </activity>
+
+    </application>
+
+</manifest>
